@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class SpringBootGithubActApp {
 
-    @GetMapping("/welcome")
+    @GetMapping("/aytengelnurtengel")
     public String welcome(){
-        return "Welcome to javatechie !";
+        return "ayten gel nurten gel, hayriye gel, huyriye gel :-D";
     }
 
     public static void main(String[] args) {
