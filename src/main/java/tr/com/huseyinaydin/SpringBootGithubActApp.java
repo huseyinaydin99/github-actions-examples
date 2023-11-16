@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @RestController
-public class SpringBootGithubActionsCiCdWorkApplication {
+public class SpringBootGithubActApp {
 
     @GetMapping("/welcome")
     public String welcome(){
@@ -15,7 +15,7 @@ public class SpringBootGithubActionsCiCdWorkApplication {
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringBootGithubActionsCiCdWorkApplication.class, args);
+        SpringApplication.run(SpringBootGithubActApp.class, args);
     }
 }
 
