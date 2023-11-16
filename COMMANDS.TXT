@@ -1,2 +1,3 @@
 docker pull huseyin11/spring-boot-images-new:latest
 docker run -p 9090:8080 huseyin11/spring-boot-images-new:latest
+localhost:9090/aytengelnurtengel
