@@ -54,6 +54,7 @@
             </plugin>
 
         </plugins>
+        <finalName>spring-boot-images-new</finalName>
     </build>
 
 </project>
